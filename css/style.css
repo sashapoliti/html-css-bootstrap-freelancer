@@ -102,3 +102,19 @@ main #hero > div img {
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+section#contact form {
+    color: var(--color-bg-nav);
+}
+section#contact button {
+    background-color: var(--color-bg-odd);
+    border-color: var(--color-bg-odd);
+}
+section#contact button:hover {
+    filter: brightness(110%);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+/* space utility */
+.sp_ml-13 {
+    margin-left: 13px;
+}

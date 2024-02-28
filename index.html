@@ -145,8 +145,32 @@
 
         <!-- fourth section -->
         <section id="contact">
-            <div class="container">
-                contact
+            <div class="container d-flex flex-column align-items-center">
+                <h2 class="text-uppercase text-center">Contact me</h2>
+                <div class="star d-flex justify-content-between align-items-center ">
+                    <div class="line"></div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <div class="line"></div>
+                </div>
+                <form class="w-100 ">
+                    <div class="form-floating mb-3">
+                        <input type="name" class="form-control rounded-0 border-top-0 border-start-0 border-end-0" id="floatingInput" placeholder="Name">
+                        <label for="floatingInput" class="fs-5 fw-bold">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control rounded-0 border-top-0 border-start-0 border-end-0" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput" class="fs-5 fw-bold">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control rounded-0 border-top-0 border-start-0 border-end-0" id="floatingPhoneNumber" placeholder="Phone Number">
+                        <label for="floatingInput" class="fs-5 fw-bold">Phone Number</label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label sp_ml-13 fs-5 fw-bold">Message</label>
+                        <textarea class="form-control rounded-0 border-top-0 border-start-0 border-end-0" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg ">Send</button>
+                </form>
             </div>
         </section>
     </main>
