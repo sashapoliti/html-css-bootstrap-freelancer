@@ -1,0 +1,15 @@
+/* general */
+:root {
+	--color-bg-nav: #2c3e50;
+	--color-bg-odd: #1abc9c;
+	--color-bg-footer: #3a546d;
+	--color-text-black: #333333;
+	--color-text-main: #ffffff;
+}
+/* main */
+.odd {
+    background-color: var(--color-bg-odd);
+}
+main #hero>div img {
+    width: 300px;
+}
