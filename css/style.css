@@ -12,7 +12,20 @@ header {
     height: 90px;
     background-color: var(--color-bg-nav);
 }
+nav a.navbar-brand,
+nav a.nav-link  {
+    color: var(--color-text-main);
+}
+nav a.navbar-brand:hover,
+nav a.nav-link:hover {
+    color: var(--color-bg-odd);
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
 /* main */
+main section:first-child {
+    padding-top: 150px;
+}
 .odd {
     background-color: var(--color-bg-odd);
 }
