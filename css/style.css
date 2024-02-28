@@ -114,6 +114,16 @@ section#contact button:hover {
     transition-duration: 0.2s;
     transition-timing-function: linear;
 }
+/* footer */
+footer .footer-top {
+    background-color: var(--color-bg-footer);
+    padding: 40px 0;
+}
+footer .footer-bottom {
+    background-color: var(--color-bg-nav);
+    padding: 40px 0 50px 0;
+    font-size: 0.8rem;
+}
 /* space utility */
 .sp_ml-13 {
     margin-left: 13px;
