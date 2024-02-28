@@ -124,6 +124,25 @@ footer .footer-bottom {
     padding: 40px 0 50px 0;
     font-size: 0.8rem;
 }
+.sp_icon>div {
+    border: 1px solid var(--color-text-main);
+    border-radius: 50%;
+    color: var(--color-text-main);
+    width: 50px;
+    aspect-ratio: 1 / 1;
+}
+.sp_icon:hover div {
+    transform: scale(1.2);
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+}
+footer .footer-top p a {
+    text-decoration: none;
+    color: var(--color-bg-odd);
+}
+footer .footer-top p a:hover {
+    text-decoration: underline;
+}
 /* space utility */
 .sp_ml-13 {
     margin-left: 13px;
